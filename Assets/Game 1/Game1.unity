@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: d465667d7acfca14b93185519000068d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 19d9ae06113170640908f1dc87b77e8e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -735,10 +735,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1980, y: 1020}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -781,7 +781,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1263311995}
   - {fileID: 33210317}
   - {fileID: 2138111244}
   - {fileID: 2058263596}
@@ -789,6 +788,7 @@ RectTransform:
   - {fileID: 410776562}
   - {fileID: 989992520}
   - {fileID: 1802338068}
+  - {fileID: 1263311995}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1724,8 +1724,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19
-  m_fontSizeBase: 19
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -3360,7 +3360,7 @@ MonoBehaviour:
     how this metal-rich world has changed over time."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9de5ea4c04c180747ab0015ebd91c75b, type: 2}
-  m_sharedMaterial: {fileID: -2704466150879477318, guid: 36985d8aa2b115f41af0de05ad89f017,
+  m_sharedMaterial: {fileID: 6008276392072070200, guid: 9de5ea4c04c180747ab0015ebd91c75b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3385,8 +3385,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   m_margin: {x: -171.8382, y: 3.5188441, z: -208.78113, w: 150.00697}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &566768625
@@ -5112,7 +5112,7 @@ MonoBehaviour:
     vacuum of space, it rapidly\n lost heat and froze solid."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9de5ea4c04c180747ab0015ebd91c75b, type: 2}
-  m_sharedMaterial: {fileID: -2704466150879477318, guid: 36985d8aa2b115f41af0de05ad89f017,
+  m_sharedMaterial: {fileID: 6008276392072070200, guid: 9de5ea4c04c180747ab0015ebd91c75b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5137,8 +5137,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -5176,7 +5176,7 @@ MonoBehaviour:
   m_margin: {x: -171.8382, y: 3.5188441, z: -208.78113, w: 150.00697}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &932857338
@@ -7424,7 +7424,7 @@ MonoBehaviour:
   m_text: "Congrats on finding \neverything, explorer!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9de5ea4c04c180747ab0015ebd91c75b, type: 2}
-  m_sharedMaterial: {fileID: -2704466150879477318, guid: 36985d8aa2b115f41af0de05ad89f017,
+  m_sharedMaterial: {fileID: 6008276392072070200, guid: 9de5ea4c04c180747ab0015ebd91c75b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7449,8 +7449,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -7488,7 +7488,7 @@ MonoBehaviour:
   m_margin: {x: -171.8382, y: 3.5188441, z: -208.78113, w: 150.00697}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1377773537
@@ -9574,7 +9574,7 @@ MonoBehaviour:
     which were common when the solar system \nwas forming.\u201D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9de5ea4c04c180747ab0015ebd91c75b, type: 2}
-  m_sharedMaterial: {fileID: -2704466150879477318, guid: 36985d8aa2b115f41af0de05ad89f017,
+  m_sharedMaterial: {fileID: 6008276392072070200, guid: 9de5ea4c04c180747ab0015ebd91c75b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9599,8 +9599,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -9638,7 +9638,7 @@ MonoBehaviour:
   m_margin: {x: -171.8382, y: 3.5188441, z: -208.78113, w: 150.00697}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1832748220
@@ -11064,7 +11064,7 @@ MonoBehaviour:
     lost its outer layers."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9de5ea4c04c180747ab0015ebd91c75b, type: 2}
-  m_sharedMaterial: {fileID: -2704466150879477318, guid: 36985d8aa2b115f41af0de05ad89f017,
+  m_sharedMaterial: {fileID: 6008276392072070200, guid: 9de5ea4c04c180747ab0015ebd91c75b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -11089,8 +11089,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70
@@ -11128,7 +11128,7 @@ MonoBehaviour:
   m_margin: {x: -171.8382, y: 3.5188441, z: -208.78113, w: 150.00697}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2133758265
@@ -11307,8 +11307,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 70

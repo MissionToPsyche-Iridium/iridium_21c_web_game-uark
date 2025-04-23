@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public AudioSource audioSource;
     public AudioSource soundtrack;
     // Example game variables
-    public GameObject credits;
     public int gameFinished;
     public string playerName;
     private bool hasCheckedReveal = false; // Prevents multiple calls
@@ -50,12 +49,6 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "title screen")
-        {
-            GameObject credits = GameObject.FindGameObjectWithTag("credits");
-            credits.SetActive(false);
-        }
-
         if (scene.name == "home" && !hasCheckedReveal)
         {
             Debug.Log("Home scene loaded, running CheckRevealObject() once.");
@@ -79,11 +72,6 @@ public class GameManager : MonoBehaviour
     {
         GameObject objToReveal1 = GameObject.FindWithTag("RevealUI1");
         objToReveal1.transform.GetChild(1).gameObject.SetActive(true);
-    }
-
-    public void ShowCredits()
-    {
-        credits.SetActive(!credits.activeSelf);
     }
 
     //reveals UI in the home page based on what game is completed

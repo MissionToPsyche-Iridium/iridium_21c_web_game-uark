@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 3b7f1c9d1599d594095072fac4df9ca7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 19d9ae06113170640908f1dc87b77e8e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -300,7 +300,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322250623
 MonoBehaviour:
@@ -374,7 +374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 154, y: -88.524}
+  m_AnchoredPosition: {x: 154, y: -83}
   m_SizeDelta: {x: 448.3484, y: 97.8257}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573306311
@@ -399,7 +399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Additional credits: \n\nTypewriter Effect by ChristinaCreatesGames\nSoundtrack
     by Ryan Powell: Journey to Psyche \u2013 A 3D Experience \nBorrowed Image - A
-    Lava for (Almost) Every Colour \u2013 EGU Blog  "
+    Lava for (Almost) Every Colour \u2013 EGU Blog\nMilky Way Skybox by dydadev used
+    under MIT License"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -795,8 +796,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1188683429}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1410566631}
+        m_TargetAssemblyTypeName: creditScript, Assembly-CSharp
         m_MethodName: ShowCredits
         m_Mode: 1
         m_Arguments:
@@ -1022,7 +1023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247.39, y: -11}
+  m_AnchoredPosition: {x: 247.39, y: 12}
   m_SizeDelta: {x: 279.649, y: 111.1164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151581039
@@ -1292,7 +1293,6 @@ MonoBehaviour:
   clickSFX: {fileID: 8300000, guid: 2ebc81469eef31d409dc3dc5589bb363, type: 3}
   audioSource: {fileID: 1188683433}
   soundtrack: {fileID: 1188683432}
-  credits: {fileID: 322250621}
   gameFinished: 0
   playerName: 
 --- !u!4 &1188683430
@@ -2178,6 +2178,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405197891}
   m_CullTransparentMesh: 1
+--- !u!1 &1410566630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410566632}
+  - component: {fileID: 1410566631}
+  m_Layer: 0
+  m_Name: Credits Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1410566631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410566630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb0dc852d19a1d458d724a9e87497ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  credits: {fileID: 322250621}
+--- !u!4 &1410566632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410566630}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.3114634, y: 2.177122, z: -15.264229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586048816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,8 +2341,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1188683429}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1410566631}
+        m_TargetAssemblyTypeName: creditScript, Assembly-CSharp
         m_MethodName: ShowCredits
         m_Mode: 1
         m_Arguments:
@@ -3047,8 +3092,8 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 960, y: 540}
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3340,3 +3385,4 @@ SceneRoots:
   - {fileID: 44077402716109171}
   - {fileID: 1724818697}
   - {fileID: 1188683430}
+  - {fileID: 1410566632}
