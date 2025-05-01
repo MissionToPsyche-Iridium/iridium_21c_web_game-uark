@@ -6,9 +6,9 @@ for the NASA Psyche Iridium Classs.
 
 This project was created by
 
-Austin Rodriguez
-Benjamin Edens
-Gianfranco Bruno Cheng
-Jessica McBride
-Kaedon Pense
+Austin Rodriguez, 
+Benjamin Edens, 
+Gianfranco Bruno Cheng, 
+Jessica McBride, 
+Kaedon Pense, and
 Olivia Meier
